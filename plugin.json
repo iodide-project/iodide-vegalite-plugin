@@ -1,0 +1,8 @@
+{
+  "languageId": "vegaLite",
+  "displayName": "Vega Lite",
+  "url": "https://iodide-project.github.io/iodide-vegalite-plugin/index.js",
+  "module": "vegaLitePlugin",
+  "evaluator": "evaluateVegaLite",
+  "pluginType": "language"
+}
