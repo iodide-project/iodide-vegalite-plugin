@@ -21,6 +21,7 @@ resources.reduce((p, r) => { return p.then(() => loadResource(r)) }, Promise.res
       const elem = iodide.output.element('div');
       const id = "iodide-vegaLite-" + Date.now();
       elem.setAttribute("class", "iodideVegaLite");
+      elem.style.textAlign = "center";
       vegaEmbed(elem, eval('(' + input + ')'));
 
       return elem
